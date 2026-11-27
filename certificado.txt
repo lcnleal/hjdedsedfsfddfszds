@@ -1,62 +1,79 @@
 CERTIFICADO DO FEED — MEURI QUADROS (montado a partir das planilhas da loja)
 ============================================================================
-Montado em ............... 2026-11-26T21:00:24  (meuri_planilha.py pl2)
+Montado em ............... 2026-11-26T21:53:34  (meuri_planilha.py pl4)
 Feed ..................... https://raw.githubusercontent.com/lcnleal/hjdedsedfsfddfszds/main/meuri-google-shopping.xml
 
 PLANILHAS
-Produtos ................. produtos-2026-11-26-11-14-1f9089f73503480.xlsx
-                           9.463.264 bytes · md5 1cc510695c74267b77c8e6cd84092af6 · modificado em 2026-11-26 08:17 · aba "Product Report"
+Produtos ................. produtos-2026-11-27-12-47-48fb1c3bc5544b8.xlsx
+                           12.222.667 bytes · md5 cb135177f4fb1ea49d665b4b08e50c10 · modificado em 2026-11-26 21:50 · aba "Product Report"
 Lista de URLs ............ LISTAR_URL_PRODUTOS.xlsx
                            300.803 bytes · md5 c6ae8b02863b05346dd01154b63027c4 · modificado em 2026-11-26 20:07 · aba "produtos"
 
 CATÁLOGO
-Linhas de produtos ....... 79.941, fora o cabeçalho
-Produtos ................. 3.218 — 2.118 ativos, 1.100 inativos
-Variações ................ 76.723 — 59.971 delas são dos produtos ativos
+Linhas de produtos ....... 102.252, fora o cabeçalho
+Produtos ................. 3.821 — 2.720 ativos, 1.101 inativos
+Variações ................ 98.431 — 81.678 delas são dos produtos ativos
 Na lista de URLs ......... 3.821 produtos — 2.721 ativos
 
 VERIFICAÇÕES
-  ✔ produtos-2026-11-26-11-14-1f9089f73503480.xlsx: íntegro (o zip conferiu o CRC de cada parte lida) e lido até a última linha que declara ter (79.942, área A1:BA79942)
+  ✔ produtos-2026-11-27-12-47-48fb1c3bc5544b8.xlsx: íntegro (o zip conferiu o CRC de cada parte lida) e lido até a última linha que declara ter (102.253, área A1:BA102253)
   ✔ LISTAR_URL_PRODUTOS.xlsx: íntegro (o zip conferiu o CRC de cada parte lida) e lido até a última linha que declara ter (3.822, área A1:H3822)
   ✔ as 18 colunas usadas estão na planilha de produtos
-  ✔ SKUs únicos: 79.941 SKUs diferentes
+  ✔ SKUs únicos: 102.252 SKUs diferentes
   ✔ toda variação pertence a um produto da planilha
-  ⚠ 603 produto(s) ATIVO(S) da lista de URLs NÃO está(ão) na planilha de produtos — fora do feed: 7827, 7741, 7945, 7714, 7926, 7376, 7602, 7506, 7595, 7468 … (+593)
-      a planilha de produtos termina no produto de id 405436882 (SKU 7223) e todos os que faltam vêm depois dele: a exportação parece ter sido cortada
-  ✔ produtos ativos na planilha: 2.118 → 2.117 itens no feed, um por produto, cada um com a variação de menor preço
+  ✔ todos os 2.721 produtos ativos da lista de URLs estão na planilha de produtos
+  – 1 ativo(s) na lista de URLs estão inativos na planilha de produtos (ficaram fora): 5373-LCGFGBL4X
+  ✔ produtos ativos na planilha: 2.720 → 2.719 itens no feed, um por produto, cada um com a variação de menor preço
       fora do feed, sem nenhuma variação ativa: 6003
-  ✔ links: todos os 2.117 vêm da lista de URLs da loja
-  ✔ feed final: XML válido (parser de verdade), 2.117 itens = 2.117 produtos, g:id únicos
+  ✔ links: todos os 2.719 vêm da lista de URLs da loja
+  ✔ promoção de 20% de 26/11/2026 00:00 até 28/11/2026 23:59 (Brasília): 2.719 produtos com o preço 20% abaixo do cheio, arredondado ao centavo como a loja
+      sale_price_effective_date 2026-11-26T00:00-0300/2026-11-28T23:59-0300 em 2.719 produtos: depois do fim, o Google volta sozinho ao preço cheio
+  ✔ conferido na loja: 10 página(s) de produto mostram o preço da promoção (5505-antigo R$ 544,00, 2172 R$ 552,35, 5273 R$ 544,00, 5579 R$ 544,00 … (+6))
+  ✔ feed final: XML válido (parser de verdade), 2.719 itens = 2.719 produtos, g:id únicos
   ✔ todo item tem título, link, g:id, preço maior que zero e disponibilidade
 
 COMPARADO AO FEED PUBLICADO
-Produtos ................. 1.459 no publicado → 2.117 no novo
-Entram ................... 658: 6009, 6452, 6456, 6460, 6462, 6464 … (+652)
-Saem ..................... 0
-g:id trocados ............ 0 (a variação mais barata mudou)
+Produtos ................. 2.117 no publicado → 2.719 no novo
+Entram ................... 603: 6655, 7061, 7073, 7086, 7348, 7349 … (+597)
+Saem ..................... 1: 5373-LCGFGBL4X
+g:id trocados ............ 1 (a variação mais barata mudou)
 
 RESULTADO
-Produtos no feed novo .... 2.117
-Variações descartadas .... 57.855
-Tamanho final ............ 3.190 KB
-Produtos em promoção ..... 8
+Produtos no feed novo .... 2.719
+Variações descartadas .... 78.960
+Tamanho final ............ 6.354 KB
+Produtos em promoção ..... 2.719 (2.719 com a promoção de 20% até 28/11 23:59)
+Imagens .................. 1 principal por produto + 10.428 adicionais (2.655 produtos com mais de uma foto)
 Disponibilidade .......... "in stock" em todos, como no XML da loja
 Frete .................... grátis para todo o Brasil
 shipping_label ........... "frete grátis"
 Descrição ................ como a loja (512 caracteres)
-2º product_type .......... 1.456 produtos (do feed publicado); 661 só com a categoria principal
+2º product_type .......... 1.455 produtos (do feed publicado); 1.264 só com a categoria principal
 Publicado com ............ --forcar (veja os avisos acima)
-md5 do feed .............. 16ac50eab53f45d7ecc0899eccf7bd93
-sha do feed (git) ........ 85872359c938049ec560217a66d41ce144794314
+md5 do feed .............. ade2c2f983423b22af728bc25f9c6792
+sha do feed (git) ........ c23dd38e544018946bac9c416a78a3f583924250
 
-Para conferir: no commit que trouxe este certificado, o arquivo meuri-google-shopping.xml tem sha 8587235 e 3.267.138 bytes.
+Para conferir: no commit que trouxe este certificado, o arquivo meuri-google-shopping.xml tem sha c23dd38 e 6.507.201 bytes.
 
 PROMOÇÕES
-  2172-70x140  788.36 BRL → 690.00 BRL (-12.5%)  Quadro Pintura Tela Arvores e Flores Modernas Em Altos 
-  2178-70x110  690.20 BRL → 599.00 BRL (-13.2%)  Quadro Pintura Tela Abstrato Moderno 2178
-  2181-60x120  690.20 BRL → 625.00 BRL (-9.4%)  Quadro Pintura Tela Arvores e Flores Modernas Em Altos 
-  2204-100x80  690.20 BRL → 599.00 BRL (-13.2%)  Quadro Minimalista 2204
-  2422-50x130  690.20 BRL → 599.00 BRL (-13.2%)  Quadro Pintura Tela Abstrato Moderno 2422
-  2450-60x120  690.20 BRL → 599.00 BRL (-13.2%)  Quadro Pintura Tela Abstrato Moderno 2450
-  2455-60x120  690.20 BRL → 599.00 BRL (-13.2%)  Quadro Pintura Tela Abstrato Moderno 2455
-  6217-i-bi-50x90  484.00 BRL → 400.00 BRL (-17.4%)  Quadro Decorativo Paisagem Rural Rio Voo de Pássaros e 
+  5505-70x100-antigo  680.00 BRL → 544.00 BRL (-20.0%)  Quadro Pintura Tela silenus corot jean óleo camille 550
+  5572-80x80-antigo  599.00 BRL → 479.20 BRL (-20.0%)  Quadro Pintura Tela abstrato floral colorido quadrado 5
+  101-90x140  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato Moderno 101
+  110-60x160  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato Moderno 110
+  133-80x140  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato Moderno 133
+  1700-80x150  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato Moderno 1700
+  1702-80x150  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato 1702
+  1703-80x140  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato 1703
+  1705-90x140  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato - Coração -  1705
+  1706-80x150  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato 1706
+  1707-80x150  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato 1707
+  1710-80x150  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato 1710
+  1711-70x150  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato 1711
+  1712-80x150  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Flores Florais Moderno 1712
+  1719-90x140  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Abstrato Africano 1719
+  1729-90x140  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Africano Silhuetas 1729
+  1733-90x140  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Flores Florais 1733
+  1742-70x150  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Fine Art 1742
+  1744-80x140  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Fine Art 1744
+  1746-90x140  690.20 BRL → 552.16 BRL (-20.0%)  Quadro Decorativo Fine Art 1746
+  … e mais 2.699
