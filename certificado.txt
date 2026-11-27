@@ -1,0 +1,62 @@
+CERTIFICADO DO FEED — MEURI QUADROS (montado a partir das planilhas da loja)
+============================================================================
+Montado em ............... 2026-11-26T21:00:24  (meuri_planilha.py pl2)
+Feed ..................... https://raw.githubusercontent.com/lcnleal/hjdedsedfsfddfszds/main/meuri-google-shopping.xml
+
+PLANILHAS
+Produtos ................. produtos-2026-11-26-11-14-1f9089f73503480.xlsx
+                           9.463.264 bytes · md5 1cc510695c74267b77c8e6cd84092af6 · modificado em 2026-11-26 08:17 · aba "Product Report"
+Lista de URLs ............ LISTAR_URL_PRODUTOS.xlsx
+                           300.803 bytes · md5 c6ae8b02863b05346dd01154b63027c4 · modificado em 2026-11-26 20:07 · aba "produtos"
+
+CATÁLOGO
+Linhas de produtos ....... 79.941, fora o cabeçalho
+Produtos ................. 3.218 — 2.118 ativos, 1.100 inativos
+Variações ................ 76.723 — 59.971 delas são dos produtos ativos
+Na lista de URLs ......... 3.821 produtos — 2.721 ativos
+
+VERIFICAÇÕES
+  ✔ produtos-2026-11-26-11-14-1f9089f73503480.xlsx: íntegro (o zip conferiu o CRC de cada parte lida) e lido até a última linha que declara ter (79.942, área A1:BA79942)
+  ✔ LISTAR_URL_PRODUTOS.xlsx: íntegro (o zip conferiu o CRC de cada parte lida) e lido até a última linha que declara ter (3.822, área A1:H3822)
+  ✔ as 18 colunas usadas estão na planilha de produtos
+  ✔ SKUs únicos: 79.941 SKUs diferentes
+  ✔ toda variação pertence a um produto da planilha
+  ⚠ 603 produto(s) ATIVO(S) da lista de URLs NÃO está(ão) na planilha de produtos — fora do feed: 7827, 7741, 7945, 7714, 7926, 7376, 7602, 7506, 7595, 7468 … (+593)
+      a planilha de produtos termina no produto de id 405436882 (SKU 7223) e todos os que faltam vêm depois dele: a exportação parece ter sido cortada
+  ✔ produtos ativos na planilha: 2.118 → 2.117 itens no feed, um por produto, cada um com a variação de menor preço
+      fora do feed, sem nenhuma variação ativa: 6003
+  ✔ links: todos os 2.117 vêm da lista de URLs da loja
+  ✔ feed final: XML válido (parser de verdade), 2.117 itens = 2.117 produtos, g:id únicos
+  ✔ todo item tem título, link, g:id, preço maior que zero e disponibilidade
+
+COMPARADO AO FEED PUBLICADO
+Produtos ................. 1.459 no publicado → 2.117 no novo
+Entram ................... 658: 6009, 6452, 6456, 6460, 6462, 6464 … (+652)
+Saem ..................... 0
+g:id trocados ............ 0 (a variação mais barata mudou)
+
+RESULTADO
+Produtos no feed novo .... 2.117
+Variações descartadas .... 57.855
+Tamanho final ............ 3.190 KB
+Produtos em promoção ..... 8
+Disponibilidade .......... "in stock" em todos, como no XML da loja
+Frete .................... grátis para todo o Brasil
+shipping_label ........... "frete grátis"
+Descrição ................ como a loja (512 caracteres)
+2º product_type .......... 1.456 produtos (do feed publicado); 661 só com a categoria principal
+Publicado com ............ --forcar (veja os avisos acima)
+md5 do feed .............. 16ac50eab53f45d7ecc0899eccf7bd93
+sha do feed (git) ........ 85872359c938049ec560217a66d41ce144794314
+
+Para conferir: no commit que trouxe este certificado, o arquivo meuri-google-shopping.xml tem sha 8587235 e 3.267.138 bytes.
+
+PROMOÇÕES
+  2172-70x140  788.36 BRL → 690.00 BRL (-12.5%)  Quadro Pintura Tela Arvores e Flores Modernas Em Altos 
+  2178-70x110  690.20 BRL → 599.00 BRL (-13.2%)  Quadro Pintura Tela Abstrato Moderno 2178
+  2181-60x120  690.20 BRL → 625.00 BRL (-9.4%)  Quadro Pintura Tela Arvores e Flores Modernas Em Altos 
+  2204-100x80  690.20 BRL → 599.00 BRL (-13.2%)  Quadro Minimalista 2204
+  2422-50x130  690.20 BRL → 599.00 BRL (-13.2%)  Quadro Pintura Tela Abstrato Moderno 2422
+  2450-60x120  690.20 BRL → 599.00 BRL (-13.2%)  Quadro Pintura Tela Abstrato Moderno 2450
+  2455-60x120  690.20 BRL → 599.00 BRL (-13.2%)  Quadro Pintura Tela Abstrato Moderno 2455
+  6217-i-bi-50x90  484.00 BRL → 400.00 BRL (-17.4%)  Quadro Decorativo Paisagem Rural Rio Voo de Pássaros e 
